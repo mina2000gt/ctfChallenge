@@ -1,0 +1,24 @@
+04 rop machine normal
+
+214pt Easy
+
+nc rop-normal.pwn.wanictf.org 9004
+
+ヒント
+
+    ropでexecve("/bin/sh", 0, 0)を実行して下さい。
+    "/bin/sh"のアドレスは提供されています
+    execveのsyscall番号は0x3bです。
+    rop machineの使い方->wani-hackase/rop-machine
+
+使用ツール例
+
+    netcat (nc)
+
+gccのセキュリティ保護
+
+    Partial RELocation ReadOnly (RELRO)
+    Stack Smash Protection (SSP)有効
+    No eXecute bit(NX)有効
+    Position Independent Executable (PIE)無効
+
