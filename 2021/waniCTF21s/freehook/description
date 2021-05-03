@@ -1,0 +1,21 @@
+02 free hook
+
+220pt Easy
+
+nc free.pwn.wanictf.org 9002
+
+ヒント
+
+    free_hookの仕組みを理解する必要があります。
+
+使用ツール例
+
+    netcat (nc)
+
+gccのセキュリティ保護
+
+    Partial RELocation ReadOnly (RELRO)
+    Stack Smash Protection (SSP)無効
+    No eXecute bit(NX)有効
+    Position Independent Executable (PIE)無効
+
