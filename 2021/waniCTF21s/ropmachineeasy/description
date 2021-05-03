@@ -1,0 +1,23 @@
+03 rop machine easy
+
+200pt Easy
+
+nc rop-easy.pwn.wanictf.org 9003
+
+ヒント
+
+    ropでsystem("/bin/sh")を実行して下さい。
+    "/bin/sh"のアドレスは提供されています
+    rop machineの使い方->wani-hackase/rop-machine
+
+使用ツール例
+
+    netcat (nc)
+
+gccのセキュリティ保護
+
+    Partial RELocation ReadOnly (RELRO)
+    Stack Smash Protection (SSP)有効
+    No eXecute bit(NX)有効
+    Position Independent Executable (PIE)無効
+

