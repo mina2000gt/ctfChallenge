@@ -1,0 +1,44 @@
+1. Find a nonzero `long x` such that `x == -x`, enter numbers only, no semicolons:
+x = -9223372036854775808
+Perfect! You are correct.（Longの最小値=全てのbitが1)
+
+2. Find 2 different `long` variables `x` and `y`, differing by at most 10, such that `Long.hashCode(x) == Long.hashCode(y)`:
+x = 1
+y = -2
+Perfect! You are correct.
+
+3. Enter a `float` value `f` that makes the following function return true:
+boolean isLucky(float magic) {
+    int iter = 0;
+    for (float start = magic; start < (magic + 256); start++) {
+        if ((iter++) > 2048) {
+            return true;
+        }
+    }
+    return false;
+}
+f = 3.4E8 (+1を桁落ちさせて、２５６は桁落ちさせない）
+Perfect! You are correct.
+
+Good job. You earned the intermediate flag:
+sdctf{JAVA_Ar1thm3tIc_15_WEirD}
+To get the final flag please answer 2 more questions.
+
+4. Enter 3 `String` values `s1`, `s2`, and `s3` such that:
+new BigDecimal(s1).add(new BigDecimal(s2)).compareTo(new BigDecimal(s3)) == 0
+but
+Double.parseDouble(s1) + Double.parseDouble(s2) != Double.parseDouble(s3)
+Do not enter quotation marks.
+
+s1 = 1.0
+s2 = -0.9
+s3 = 0.1
+
+5. Final question! [🎶BOSS MUSIC🎶]
+Fill in <type>, <num1>, <num2> below:
+var i = (<type>) <num1>; var j = (<type>) <num2>;
+such that after running the code above, the following expression:
+i < j || i == j || i > j
+evaluates to `false`.
+<num1> and <num2> are Java code that satisfies this regex: [0-9]*\.?[0-9]*
+<type>: 
