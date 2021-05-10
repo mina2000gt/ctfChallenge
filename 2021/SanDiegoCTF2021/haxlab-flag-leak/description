@@ -1,0 +1,10 @@
+PWN - EASY
+HAXLAB — Flag Leak
+Welcome to HAXLAB, the world's most secure MaaS® (math-as-a-service) with advanced functionality.
+Note
+For this part of the challenge, please submit the contents of flag1.txt.
+jail.py
+https://cdn.discordapp.com/attachments/840074210935177247/840076657075159040/jail.py
+Connect via
+nc haxlab.sdc.tf 1337
+By k3v1n•昨日 22:43
