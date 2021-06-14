@@ -1,0 +1,11 @@
+ Happy Little Osint 2 100 Points15 hours, 41 minutes, 38 seconds remaining
+Part 2 of 3 in the Happy Lil Osint Series
+
+Good job you found the bully! Go roast their mixtape (find the flag in one of the videos).
+
+--Scope--
+Starting now it is fairly clear which accounts are related to the con. If it doesn't look like it, you are in the wrong place.
+
+Flag format is CCC{...} and begins with `th` (just so things don't get out of order)
+
+Author: Thomas
