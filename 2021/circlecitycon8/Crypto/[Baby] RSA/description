@@ -1,0 +1,15 @@
+
+[Baby] RSA 100 Points
+SOLVED
+Bob and Alice want to send messages to each other. However, they don't want other people to see the messages that they are sending. Because of this, they choose to use textbook RSA. Show Alice and Bob why this isn't secure by recovering the message with the information given.
+
+Flag format: flag{...}
+
+Author: Raj
+baby_rsaSize: 0.78 KB
+MD5: de1b5859e143e77539ea030cc169cbb0
+Hint! There are problems when encrypting under RSA with a sufficiently large modulo 'N'.
+
+In RSA, a message is encrypted as m^e mod N.
+
+What happens if m^e is less than N?
