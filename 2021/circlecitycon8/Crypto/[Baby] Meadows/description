@@ -1,0 +1,10 @@
+ [Baby] Meadows 166 Points16 hours, 16 minutes, 30 seconds remaining
+Let's paint a nice meadow, reaching almost as far as the eye can see. Let's keep it finite though.
+
+Author: Robin Jadoul
+baby-meadows.pySize: 0.52 KB
+MD5: 26d0113c2e4de08ec10568136e3500af
+out.txtSize: 15.72 KB
+MD5: d5123fb523dc13ee5ffd01ba2ab51d90
+Hint! - predicting randomness is easy when it's in fact not random: https://en.wikipedia.org/wiki/Random_seed
+- in some cases, even when working modulo, we can multiply and divide: https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/
