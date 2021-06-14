@@ -1,0 +1,10 @@
+ angrbox 274 Points16 hours, 1 minute, 15 seconds remaining
+Write me a program that:
+- Takes 4 uppercase characters in argv
+- Verifies the 4 character key and returns 0 if correct
+- If I find the key, YOU LOSE
+nc 35.194.4.79 7000
+
+Author: qxxxb
+angrbox.zipSize: 7.04 KB
+MD5: f8d8eb1fce504d77a120fe089f7d9521
