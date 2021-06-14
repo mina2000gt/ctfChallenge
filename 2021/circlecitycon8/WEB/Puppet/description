@@ -1,0 +1,19 @@
+ Puppet 299 Points15 hours, 24 minutes, 38 seconds remaining
+The flag has a random name in ~/Documents
+Pwn my browser >:)
+const browser = await puppeteer.launch({
+  dumpio: true,
+  args: [
+    '--disable-web-security',
+    '--user-data-dir=/tmp/chrome',
+    '--remote-debugging-port=5000',
+    '--disable-dev-shm-usage', // Docker stuff
+    '--js-flags=--jitless' // No Chrome n-days please
+  ]
+})
+
+Challenge: http://35.225.84.51
+
+Author: qxxxb
+puppet.zipSize: 98.28 KB
+MD5: a6a24ed5970ef4e8754767845738b38d

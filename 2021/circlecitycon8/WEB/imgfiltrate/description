@@ -1,0 +1,15 @@
+ imgfiltrate 268 Points15 hours, 25 minutes, 13 seconds remaining
+Can you yoink an image from the admin page?
+
+App: http://35.224.135.84:3200
+Admin bot: http://35.224.135.84:3201
+
+Author: qxxxb
+imgfiltrate.zipSize: 80.32 KB
+MD5: b04af4b95818b40228d942f2a87f70c4
+Hint! In this challenge there are two services: the web app and the admin bot.
+
+docker-compose creates an internal network for these two services, and the web app has an internal hostname set to imgfiltrate.hub.
+
+Note that the admin bot's cookie is set for this internal domain, not the external domain at 35.224.135.84. This means that when you submit a URL to the admin bot, you must do something like:
+http://imgfiltrate.hub/<stuff>
